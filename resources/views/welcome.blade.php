@@ -959,7 +959,7 @@
                                             <br> 
                                             Tech Stack = Laravel v11, Breeze, TailwindCSS, Bootstrap v5, MYSQL Workbench
                                             <br> 
-                                            Link Demo Or Github Project → <button style="background-color: #FF2D20;">View Project</button>
+                                            Link Demo local (NGROK) Or Github Project → <button style="background-color: #FF2D20;">View Project</button>
                                         </p>                                        
                                     </div>
                                 </div>
