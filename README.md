@@ -79,4 +79,4 @@ Terminal or CommandLine:
 ngrok http http://localhost:8000
 ```
 
-![itrem run ngrok local](/team/ngrok.png)
+![itrem run ngrok local](team/ngrok.png)
