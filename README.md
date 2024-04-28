@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Project Laravel
+## About Project UTS Development Framework
 
 Laravel 11 Multi Auth using Breeze with CRUD Admin & User.
 
