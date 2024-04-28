@@ -79,4 +79,4 @@ Terminal or CommandLine:
 ngrok http http://localhost:8000
 ```
 
-<img src="team/ngrok.png">
+<img src="/public/team/ngrok.png">
