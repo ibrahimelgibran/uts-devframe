@@ -35,6 +35,23 @@ Install Composer:
 install composer
 ```
 
+Configuration from '.env.example' file to '.env file.'
+
+```bash
+cp .env.example .env
+```
+
+Edit the db connection section of the file .env:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=utsmyapp
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
 Install Laravel Breeze using Composer:
 
 ```bash
