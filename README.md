@@ -75,7 +75,7 @@ npm run dev
 
 ### Open Terminal or CommandLine.
 
-Install ngrok via Homebrew:
+Install [ngrok](https://ngrok.com/download) via [Homebrew](https://formulae.brew.sh/cask/ngrok):
 
 ```bash
 brew install ngrok/ngrok/ngrok
