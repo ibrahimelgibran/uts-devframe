@@ -79,4 +79,8 @@ Terminal or CommandLine:
 ngrok http http://localhost:8000
 ```
 
+Access to url on forwarding.
+
 <img src="/public/team/ngrok.png">
+
+That is all and thank you 👨🏻‍💻.
