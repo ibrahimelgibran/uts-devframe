@@ -47,7 +47,7 @@ Install "breeze:install" frontend stack and testing framework:
 php artisan breeze:install
 ```
 
-NPM install:
+Install node:
 
 ```bash
 npm install
@@ -70,3 +70,13 @@ Run node server:
 ```bash
 npm run dev
 ```
+
+## Demo using NGROK
+
+Terminal or CommandLine:
+
+```bash
+ngrok http http://localhost:8000
+```
+
+![itrem run ngrok local](/team/ngrok.png)
