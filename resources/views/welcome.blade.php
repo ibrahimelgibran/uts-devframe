@@ -957,7 +957,7 @@
                                         <p class="mt-4 text-sm/relaxed" style="text-align: left;">
                                             Laravel 11 Multi Auth using Breeze with CRUD Admin & User.
                                             <br> 
-                                            Tech Stack = Laravel v11, Breeze, Bootstrap v5, MYSQL Workbench
+                                            Tech Stack = Laravel v11, Breeze, TailwindCSS, Bootstrap v5, MYSQL Workbench
                                             <br> 
                                             Link Demo Or Github Project → <button style="background-color: #FF2D20;">View Project</button>
                                         </p>                                        
