@@ -73,7 +73,21 @@ npm run dev
 
 ## Demo using NGROK
 
-Terminal or CommandLine:
+### Open Terminal or CommandLine.
+
+Install ngrok via Homebrew:
+
+```bash
+brew install ngrok/ngrok/ngrok
+```
+
+Run the following command to add your authtoken to the default ngrok.yml:
+
+```bash
+ngrok config add-authtoken xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+Running on port:
 
 ```bash
 ngrok http http://localhost:8000
