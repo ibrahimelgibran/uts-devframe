@@ -203,7 +203,7 @@
         $team_name = "How to run project?";
         ?>
         <h2><?php echo $team_name; ?></h2>
-        <button type="button" class="btn btn-primary"><a href="http://https://github.com/ibrahimelgibran/uts-devframe?tab=readme-ov-file#how-to-run-project" style="color: #fff; text-decoration:none">Click Here! 👈🏻</a></button>
+        <button type="button" class="btn btn-primary"><a href="https://github.com/ibrahimelgibran/uts-devframe#how-to-run-project" style="color: #fff; text-decoration:none">Click Here! 👈🏻</a></button>
     </div>
 
     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
