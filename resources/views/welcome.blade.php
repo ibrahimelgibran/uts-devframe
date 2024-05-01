@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>UTS - MyApp</title>
+    <title>UTS - MyAppDevFrame</title>
     <link rel="shortcut icon" href="https://www.iegcodestore.my.id/ieg.png" type="image/x-icon">
 
     <!-- Fonts -->
