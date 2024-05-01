@@ -9,6 +9,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/servis', function () {
+    return view('servis');
+})->name('servis'); 
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact'); 
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -37,17 +49,7 @@ require __DIR__.'/auth.php';
 
 #route::get('admin/dashboard', [HomeController::class, 'index']);
 #   route::get('admin/dashboard', [HomeController::class, 'index'])->middleware('auth', 'admin');
-Route::get('/servis', function () {
-    return view('servis');
-})->name('servis'); 
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact'); 
-
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
 
 
 
