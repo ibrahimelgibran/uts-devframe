@@ -6,18 +6,6 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
  
 Route::get('/', function () {
-    return view('servis');
-}); 
-
-Route::get('/', function () {
-    return view('about');
-}); 
-
-Route::get('/', function () {
-    return view('contact');
-}); 
-
-Route::get('/', function () {
     return view('welcome');
 });
 
@@ -49,3 +37,18 @@ require __DIR__.'/auth.php';
 
 #route::get('admin/dashboard', [HomeController::class, 'index']);
 #   route::get('admin/dashboard', [HomeController::class, 'index'])->middleware('auth', 'admin');
+Route::get('/', function () {
+    return view('servis');
+}); 
+
+Route::get('/', function () {
+    return view('contact');
+}); 
+
+Route::get('/', function () {
+    return view('about');
+}); 
+
+Route::get('/', function () {
+    return view('welcome');
+}); 
