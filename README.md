@@ -112,6 +112,6 @@ ngrok http http://localhost:8000
 
 Access to url on forwarding.
 
-<img src="/public/team/ngrok.png">
+<img src="/public/team/ngrokdemo.png">
 
 That is all and thank you 👨🏻‍💻.

@@ -37,18 +37,18 @@ require __DIR__.'/auth.php';
 
 #route::get('admin/dashboard', [HomeController::class, 'index']);
 #   route::get('admin/dashboard', [HomeController::class, 'index'])->middleware('auth', 'admin');
-Route::get('/', function () {
+Route::get('/servis', function () {
     return view('servis');
-}); 
+})->name('servis'); 
 
-Route::get('/', function () {
+Route::get('/contact', function () {
     return view('contact');
-}); 
+})->name('contact'); 
 
-Route::get('/', function () {
+Route::get('/about', function () {
     return view('about');
-}); 
+})->name('about');
 
-Route::get('/', function () {
-    return view('welcome');
-}); 
+
+
+
