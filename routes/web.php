@@ -44,3 +44,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('about');
 }); 
+
+Route::get('/', function () {
+    return view('contact');
+}); 
