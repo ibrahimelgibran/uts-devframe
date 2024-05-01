@@ -32,7 +32,7 @@ git clone https://github.com/ibrahimelgibran/uts-devframe.git
 Install Composer:
 
 ```bash
-install composer
+composer install
 ```
 
 Configuration from '.env.example' file to '.env file.'
