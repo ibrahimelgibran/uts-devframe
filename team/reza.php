@@ -86,3 +86,19 @@
     echo "Umur: $umur tahun\n";
     echo "Pekerjaan: $pekerjaan\n";
 ?>
+
+<?php
+    // Bagian keempat
+    $hobi = array("membaca", "menulis", "bersepeda", "mendaki gunung");
+    $hobi_string = implode(", ", $hobi);
+    
+    echo "Hobi: $hobi_string\n";
+?>
+
+<?php
+    // Bagian kelima
+    $tgl_lahir = mktime(0, 0, 0, 8, 15, 2004);
+    $hari_lahir = date("l", $tgl_lahir);
+    
+    echo "Hari lahir: $hari_lahir\n";
+?>
