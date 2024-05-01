@@ -40,3 +40,7 @@ require __DIR__.'/auth.php';
 Route::get('/', function () {
     return view('servis');
 }); 
+
+Route::get('/', function () {
+    return view('about');
+}); 
