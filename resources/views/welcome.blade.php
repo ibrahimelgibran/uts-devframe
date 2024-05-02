@@ -976,62 +976,77 @@
 
                                         <p class="mt-4 text-sm/relaxed" style="text-align: left;">
                                             Laravel 11 Multi Auth using Breeze with CRUD Admin & User.
-                                            <br> 
+                                            <br>
                                             Tech Stack = Laravel v11, Breeze, TailwindCSS, Bootstrap v5, MYSQL Workbench
-                                            <br> 
+                                            <br>
                                             Link Demo local (NGROK) Or Github Repo Project → <button style="background-color: #FF2D20;">View Project</button>
-                                        </p>                                        
+                                        </p>
                                     </div>
                                 </div>
 
-                               
+
                             </div>
                         </a>
 
 
                         <!-- Team -->
-                        <div class="main-container" id="team">
-                            <h2 style="font-size: 30px;">Our Team</h2>
-                            <hr>
+                        <div class="main-container">
+                            <h2 style="font-size: 30px; color:black; text-align:center; ">Our Team</h2>
+                            <hr style="border-color: black;">
                             <div class="members">
-                               <div class="team-member" style="color: black; font-weight: bold;">
-                                    <img src="/team/elgibran.png">
-                                     <h4 style="margin-left: -40px;">22.01.4774</h4>
-                                    <p style="margin-left: -30px;">Ibrahim El Gibran</p>
+                                <div class="team-member">
+                                    <img src="/team/elgibran.png" style="margin-left: 15%;">
+                                    <h4>22.01.4774</h4>
+                                    <p>Ibrahim El Gibran</p>
                                 </div>
-                               <div class="team-member" style="color: black; font-weight: bold;">
-                                    <img src="/team/rifandi.png">
-                                     <h4 style="margin-left: -40px;">22.01.4750</h4>
+                                <div class="team-member">
+                                    <img src="/team/rifandi.png" style="margin-left: 10%;">
+                                    <h4>22.01.4750</h4>
                                     <p>Rifandi Annas S</p>
                                 </div>
-                                <div class="team-member" style="color: black; font-weight: bold;">
-                                    <img src="/team/reza.png">
-                                    <h4 style="margin-left: -40px;">22.01.4788</h4>
+                                <div class="team-member">
+                                    <img src="/team/reza.png" style="margin-left: 15%;">
+                                    <h4>22.01.4788</h4>
                                     <p>M Reza Apriansyah</p>
                                 </div>
-                                <div class="team-member" style="color: black; font-weight: bold;">
+                                <div class="team-member">
                                     <img src="/team/dean.png">
-                                     <h4>22.01.4734</h4>
+                                    <h4>22.01.4734</h4>
                                     <p>Deandra Gerva</p>
                                 </div>
                             </div>
                         </div>
 
+
                         <style>
                             .main-container {
+                                position: relative;
                                 background-size: cover;
                                 background-image: url('/team/bg2.jpg');
                                 border-radius: 15px;
                                 margin: 1rem;
                                 padding: 20px;
                                 box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+                                overflow-x: auto;
                             }
 
-                            h2 {
+                            .members {
+                                display: flex;
+                                justify-content: center;
+                                padding-bottom: 20px;
+                            }
+
+                            .team-member {
                                 text-align: center;
+                                margin: 0 40px;
                                 color: black;
-                                font-size: 20;
-                                font-weight: bold;
+                            }
+
+                            img {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                                margin: 10px;
                             }
 
                             hr {
@@ -1039,33 +1054,41 @@
                                 margin: 10px auto;
                             }
 
-                            .members {
-                                display: flex;
-                                justify-content: center;
-                                flex-wrap: wrap;
-                            }
-
-                            .team-member {
-                                margin: 30px;
-                                transition: all .3s ease;
-                                cursor: pointer;
-                            }
-
-                            .team-member:hover {
-                                transform: scale(1.1);
-                            }
-
-                            img {
-                                width: 100px;
-                                height: 100px;
-                                border-radius: 50%;
-                                margin: 10px;
-                            }
 
                             h4,
                             p {
                                 text-align: center;
                                 font-size: 20px;
+                            }
+
+                            @media only screen and (max-width: 768px) {
+                                .members {
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+
+                                .team-member {
+                                    margin: 20px 0;
+                                    text-align: center;
+                                }
+
+                                .main-container {
+                                    background-position: center;
+                                }
+
+                                img {
+                                    width: 120px;
+                                    height: auto;
+                                    border-radius: 50%;
+                                    margin-left: 0;
+                                    margin-right: 0;
+                                }
+
+                                h4,
+                                p {
+                                    margin: 5px 0;
+                                    text-align: center;
+                                }
                             }
                         </style>
                         <!-- End Team -->
@@ -1075,8 +1098,8 @@
             </main>
 
             <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-            made with ❤️ by
-		<a href="http://ibrahimelgibran.com" style="color: #0b60b0; text-decoration: none">iegcode :')</a>
+                made with ❤️ by
+                <a href="http://ibrahimelgibran.com" style="color: #41C9E2; text-decoration: none">iegcode :')</a>
             </footer>
         </div>
     </div>
