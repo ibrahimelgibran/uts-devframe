@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="https://www.iegcodestore.my.id/ieg.png" type="image/x-icon">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;

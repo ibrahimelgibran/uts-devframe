@@ -9,7 +9,7 @@
     <title>Contact</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
