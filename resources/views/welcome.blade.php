@@ -14,7 +14,7 @@
 
     <!-- Styles -->
     <style>
-        /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
+        /* ! tailwindcsss v3.4.1 | MIT License | https://tailwindcss.com */
         *,
         ::after,
         ::before {
