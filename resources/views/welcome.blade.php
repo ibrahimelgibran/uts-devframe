@@ -994,7 +994,7 @@
                             <h2 style="font-size: 30px; color:black; text-align:center; ">Our Team</h2>
                             <hr style="border-color: black;">
                             <div class="members">
-                                <div class="team-member">
+                                <div class="team-member" id="team">
                                     <img src="/team/elgibran.png" style="margin-left: 15%;">
                                     <h4>22.01.4774</h4>
                                     <p>Ibrahim El Gibran</p>
