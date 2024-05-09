@@ -52,7 +52,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-Install Laravel Breeze using Composer:
+Install Laravel [Breeze] (https://laravel.com/docs/11.x/starter-kits#laravel-breeze-installation) using Composer:
 
 ```bash
 composer require laravel/breeze --dev
